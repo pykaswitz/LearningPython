@@ -1,0 +1,30 @@
+{
+    "rock": {
+        "defeats": ["fire", "scissors", "sponge"],
+        "defeated_by": ["paper", "air", "water"]
+    },
+    "paper": {
+        "defeats": ["air", "rock", "water"],
+        "defeated_by": ["fire", "scissors", "sponge"]
+    },
+    "scissors": {
+        "defeats": ["air", "paper", "sponge"],
+        "defeated_by": ["rock", "fire", "water"]
+    },
+    "fire": {
+        "defeats": ["scissors", "paper", "sponge"],
+        "defeated_by": ["rock", "air", "water"]
+    },
+    "sponge": {
+        "defeats": ["paper", "air", "water"],
+        "defeated_by": ["rock", "fire", "scissors"]
+    },
+    "air": {
+        "defeats": ["fire", "rock", "water"],
+        "defeated_by": ["scissors", "sponge", "paper"]
+    },
+    "water": {
+        "defeats": ["fire", "rock", "scissors"],
+        "defeated_by": ["air", "paper", "sponge"]
+    }
+}

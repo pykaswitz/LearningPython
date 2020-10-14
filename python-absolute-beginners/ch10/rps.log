@@ -1,0 +1,294 @@
+# used '.now()'
+[2020-09-27 15:50:05.411068] App starting up...
+[2020-09-27 15:50:05.411068] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[2020-09-27 15:50:09.139218] Brian has logged in.
+[2020-09-27 15:50:09.139218] New game starting between Brian and Computer.
+[2020-09-27 15:50:10.847049] Round: Brian rolls rock and Computer rolls scissors.
+[2020-09-27 15:50:10.847049] Brian takes the round!
+[2020-09-27 15:50:10.847049] Score is Brian: 1 and Computer: 0
+[2020-09-27 15:50:11.388846] Round: Brian rolls scissors and Computer rolls paper.
+[2020-09-27 15:50:11.388846] Brian takes the round!
+[2020-09-27 15:50:11.389845] Score is Brian: 2 and Computer: 0
+[2020-09-27 15:50:11.909660] Round: Brian rolls sponge and Computer rolls air.
+[2020-09-27 15:50:11.909660] Brian takes the round!
+[2020-09-27 15:50:11.909660] Score is Brian: 3 and Computer: 0
+[2020-09-27 15:50:11.910659] Brian wins the game!
+[2020-09-27 15:50:11.911656] Game over.
+# used '.now().date()'
+[2020-09-27] App starting up...
+[2020-09-27] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[2020-09-27] Brian has logged in.
+[2020-09-27] New game starting between Brian and Computer.
+[2020-09-27] Round: Brian rolls sponge and Computer rolls paper.
+[2020-09-27] Brian takes the round!
+[2020-09-27] Score is Brian: 1 and Computer: 0
+[2020-09-27] Round: Brian rolls sponge and Computer rolls sponge.
+[2020-09-27] Round was a tie!
+[2020-09-27] Score is Brian: 1 and Computer: 0
+[2020-09-27] Round: Brian rolls sponge and Computer rolls scissors.
+[2020-09-27] Computer takes the round!
+[2020-09-27] Score is Brian: 1 and Computer: 1
+[2020-09-27] Round: Brian rolls sponge and Computer rolls sponge.
+[2020-09-27] Round was a tie!
+[2020-09-27] Score is Brian: 1 and Computer: 1
+[2020-09-27] Round: Brian rolls sponge and Computer rolls fire.
+[2020-09-27] Computer takes the round!
+[2020-09-27] Score is Brian: 1 and Computer: 2
+[2020-09-27] Round: Brian rolls sponge and Computer rolls sponge.
+[2020-09-27] Round was a tie!
+[2020-09-27] Score is Brian: 1 and Computer: 2
+[2020-09-27] Round: Brian rolls sponge and Computer rolls water.
+[2020-09-27] Brian takes the round!
+[2020-09-27] Score is Brian: 2 and Computer: 2
+[2020-09-27] Round: Brian rolls sponge and Computer rolls air.
+[2020-09-27] Brian takes the round!
+[2020-09-27] Score is Brian: 3 and Computer: 2
+[2020-09-27] Brian wins the game!
+[2020-09-27] Game over.
+# used '.now().strftime ('c%')'
+[Sun Sep 27 15:53:43 2020] App starting up...
+[Sun Sep 27 15:53:43 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 15:53:47 2020] Juliet has logged in.
+[Sun Sep 27 15:53:47 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 15:53:49 2020] Round: Juliet rolls rock and Computer rolls water.
+[Sun Sep 27 15:53:49 2020] Computer takes the round!
+[Sun Sep 27 15:53:49 2020] Score is Juliet: 0 and Computer: 1
+[Sun Sep 27 15:53:49 2020] Round: Juliet rolls paper and Computer rolls water.
+[Sun Sep 27 15:53:49 2020] Juliet takes the round!
+[Sun Sep 27 15:53:49 2020] Score is Juliet: 1 and Computer: 1
+[Sun Sep 27 15:53:50 2020] Round: Juliet rolls scissors and Computer rolls water.
+[Sun Sep 27 15:53:50 2020] Computer takes the round!
+[Sun Sep 27 15:53:50 2020] Score is Juliet: 1 and Computer: 2
+[Sun Sep 27 15:53:51 2020] Round: Juliet rolls fire and Computer rolls sponge.
+[Sun Sep 27 15:53:51 2020] Juliet takes the round!
+[Sun Sep 27 15:53:51 2020] Score is Juliet: 2 and Computer: 2
+[Sun Sep 27 15:53:51 2020] Round: Juliet rolls sponge and Computer rolls air.
+[Sun Sep 27 15:53:51 2020] Juliet takes the round!
+[Sun Sep 27 15:53:51 2020] Score is Juliet: 3 and Computer: 2
+[Sun Sep 27 15:53:51 2020] Juliet wins the game!
+[Sun Sep 27 15:53:51 2020] Game over.
+[Sun Sep 27 17:42:56 2020] App starting up...
+[Sun Sep 27 17:42:56 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 17:43:04 2020] Juliet has logged in.
+[Sun Sep 27 17:43:04 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 17:43:06 2020] Round: Juliet rolls paper and Computer rolls fire.
+[Sun Sep 27 17:43:06 2020] Computer takes the round!
+[Sun Sep 27 17:43:06 2020] Score is Juliet: 0 and Computer: 1
+[Sun Sep 27 17:43:07 2020] Round: Juliet rolls scissors and Computer rolls paper.
+[Sun Sep 27 17:43:07 2020] Juliet takes the round!
+[Sun Sep 27 17:43:07 2020] Score is Juliet: 1 and Computer: 1
+[Sun Sep 27 17:43:08 2020] Round: Juliet rolls fire and Computer rolls water.
+[Sun Sep 27 17:43:08 2020] Computer takes the round!
+[Sun Sep 27 17:43:08 2020] Score is Juliet: 1 and Computer: 2
+[Sun Sep 27 17:43:09 2020] Round: Juliet rolls air and Computer rolls paper.
+[Sun Sep 27 17:43:09 2020] Computer takes the round!
+[Sun Sep 27 17:43:09 2020] Score is Juliet: 1 and Computer: 3
+[Sun Sep 27 17:43:09 2020] Computer wins the game!
+[Sun Sep 27 17:43:09 2020] Game over.
+[Sun Sep 27 17:44:00 2020] App starting up...
+[Sun Sep 27 17:44:00 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 17:44:07 2020] Juliet has logged in.
+[Sun Sep 27 17:44:07 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 17:44:09 2020] Round: Juliet rolls rock and Computer rolls paper.
+[Sun Sep 27 17:44:09 2020] Computer takes the round!
+[Sun Sep 27 17:44:09 2020] Score is Juliet: 0 and Computer: 1
+[Sun Sep 27 17:44:10 2020] Round: Juliet rolls scissors and Computer rolls rock.
+[Sun Sep 27 17:44:10 2020] Computer takes the round!
+[Sun Sep 27 17:44:10 2020] Score is Juliet: 0 and Computer: 2
+[Sun Sep 27 17:44:10 2020] Round: Juliet rolls sponge and Computer rolls scissors.
+[Sun Sep 27 17:44:10 2020] Computer takes the round!
+[Sun Sep 27 17:44:10 2020] Score is Juliet: 0 and Computer: 3
+[Sun Sep 27 17:44:10 2020] Computer wins the game!
+[Sun Sep 27 17:44:10 2020] Game over.
+[Sun Sep 27 18:22:32 2020] App starting up...
+[Sun Sep 27 18:22:32 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 18:22:38 2020] Juliet has logged in.
+[Sun Sep 27 18:22:38 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 18:22:40 2020] Round: Juliet rolls water and Computer rolls paper.
+[Sun Sep 27 18:22:40 2020] Computer takes the round!
+[Sun Sep 27 18:22:40 2020] Score is Juliet: 0 and Computer: 1
+[Sun Sep 27 18:22:41 2020] Round: Juliet rolls sponge and Computer rolls air.
+[Sun Sep 27 18:22:41 2020] Juliet takes the round!
+[Sun Sep 27 18:22:41 2020] Score is Juliet: 1 and Computer: 1
+[Sun Sep 27 18:22:42 2020] Round: Juliet rolls scissors and Computer rolls air.
+[Sun Sep 27 18:22:42 2020] Juliet takes the round!
+[Sun Sep 27 18:22:42 2020] Score is Juliet: 2 and Computer: 1
+[Sun Sep 27 18:22:43 2020] Round: Juliet rolls rock and Computer rolls scissors.
+[Sun Sep 27 18:22:43 2020] Juliet takes the round!
+[Sun Sep 27 18:22:43 2020] Score is Juliet: 3 and Computer: 1
+[Sun Sep 27 18:22:43 2020] Juliet wins the game!
+[Sun Sep 27 18:22:43 2020] Game over.
+[Sun Sep 27 18:57:02 2020] App starting up...
+[Sun Sep 27 18:57:02 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 18:57:24 2020] App starting up...
+[Sun Sep 27 18:57:24 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:45:54 2020] App starting up...
+[Sun Sep 27 19:45:54 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:48:05 2020] App starting up...
+[Sun Sep 27 19:48:05 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:48:09 2020] Brian has logged in.
+[Sun Sep 27 19:48:09 2020] New game starting between Brian and Computer.
+[Sun Sep 27 19:49:27 2020] App starting up...
+[Sun Sep 27 19:49:27 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:49:32 2020] Brian has logged in.
+[Sun Sep 27 19:49:32 2020] New game starting between Brian and Computer.
+[Sun Sep 27 19:50:22 2020] App starting up...
+[Sun Sep 27 19:50:22 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:51:44 2020] App starting up...
+[Sun Sep 27 19:51:44 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:52:36 2020] App starting up...
+[Sun Sep 27 19:52:36 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:53:12 2020] App starting up...
+[Sun Sep 27 19:53:12 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:54:11 2020] App starting up...
+[Sun Sep 27 19:54:11 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:57:10 2020] App starting up...
+[Sun Sep 27 19:57:10 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 19:57:14 2020] Brian has logged in.
+[Sun Sep 27 19:57:14 2020] New game starting between Brian and Computer.
+[Sun Sep 27 19:57:21 2020] Round: Brian rolls rock and Computer rolls rock.
+[Sun Sep 27 19:57:21 2020] Round was a tie!
+[Sun Sep 27 19:57:21 2020] Score is Brian: 0 and Computer: 0
+[Sun Sep 27 21:46:39 2020] App starting up...
+[Sun Sep 27 21:46:39 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 21:46:42 2020] Brian has logged in.
+[Sun Sep 27 21:46:42 2020] New game starting between Brian and Computer.
+[Sun Sep 27 21:46:47 2020] Round: Brian rolls rock and Computer rolls scissors.
+[Sun Sep 27 21:46:47 2020] Brian takes the round!
+[Sun Sep 27 21:46:47 2020] Score is Brian: 1 and Computer: 0
+[Sun Sep 27 22:24:49 2020] App starting up...
+[Sun Sep 27 22:24:49 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 22:25:05 2020] App starting up...
+[Sun Sep 27 22:25:05 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 22:25:32 2020] App starting up...
+[Sun Sep 27 22:25:32 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 22:25:37 2020] App starting up...
+[Sun Sep 27 22:25:37 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 22:54:20 2020] App starting up...
+[Sun Sep 27 22:54:20 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 22:58:49 2020] Brian has logged in.
+[Sun Sep 27 22:58:49 2020] New game starting between Brian and Computer.
+[Sun Sep 27 23:02:14 2020] App starting up...
+[Sun Sep 27 23:02:14 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:02:21 2020] Juliet has logged in.
+[Sun Sep 27 23:02:21 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 23:03:21 2020] App starting up...
+[Sun Sep 27 23:03:21 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:03:24 2020] Juliet has logged in.
+[Sun Sep 27 23:03:24 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 23:04:17 2020] App starting up...
+[Sun Sep 27 23:04:17 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:04:20 2020] Brian has logged in.
+[Sun Sep 27 23:04:20 2020] New game starting between Brian and Computer.
+[Sun Sep 27 23:07:24 2020] App starting up...
+[Sun Sep 27 23:07:24 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:07:26 2020] Juliet has logged in.
+[Sun Sep 27 23:07:26 2020] New game starting between Juliet and Computer.
+[Sun Sep 27 23:07:34 2020] Round: Juliet rolls rock and Computer rolls rock.
+[Sun Sep 27 23:07:34 2020] Round was a tie!
+[Sun Sep 27 23:07:34 2020] Score is Juliet: 0 and Computer: 0
+[Sun Sep 27 23:07:43 2020] Round: Juliet rolls rock and Computer rolls rock.
+[Sun Sep 27 23:07:43 2020] Round was a tie!
+[Sun Sep 27 23:07:43 2020] Score is Juliet: 0 and Computer: 0
+[Sun Sep 27 23:07:46 2020] Round: Juliet rolls rock and Computer rolls water.
+[Sun Sep 27 23:07:46 2020] Computer takes the round!
+[Sun Sep 27 23:07:46 2020] Score is Juliet: 0 and Computer: 1
+[Sun Sep 27 23:07:50 2020] Round: Juliet rolls rock and Computer rolls scissors.
+[Sun Sep 27 23:07:50 2020] Juliet takes the round!
+[Sun Sep 27 23:07:50 2020] Score is Juliet: 1 and Computer: 1
+[Sun Sep 27 23:07:51 2020] Round: Juliet rolls rock and Computer rolls air.
+[Sun Sep 27 23:07:51 2020] Computer takes the round!
+[Sun Sep 27 23:07:51 2020] Score is Juliet: 1 and Computer: 2
+[Sun Sep 27 23:07:52 2020] Round: Juliet rolls rock and Computer rolls scissors.
+[Sun Sep 27 23:07:52 2020] Juliet takes the round!
+[Sun Sep 27 23:07:52 2020] Score is Juliet: 2 and Computer: 2
+[Sun Sep 27 23:07:54 2020] Round: Juliet rolls rock and Computer rolls rock.
+[Sun Sep 27 23:07:54 2020] Round was a tie!
+[Sun Sep 27 23:07:54 2020] Score is Juliet: 2 and Computer: 2
+[Sun Sep 27 23:07:59 2020] Round: Juliet rolls rock and Computer rolls water.
+[Sun Sep 27 23:07:59 2020] Computer takes the round!
+[Sun Sep 27 23:07:59 2020] Score is Juliet: 2 and Computer: 3
+[Sun Sep 27 23:07:59 2020] Computer wins the game!
+[Sun Sep 27 23:07:59 2020] Game over.
+[Sun Sep 27 23:09:46 2020] App starting up...
+[Sun Sep 27 23:09:46 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:09:48 2020] Brian has logged in.
+[Sun Sep 27 23:09:48 2020] New game starting between Brian and Computer.
+[Sun Sep 27 23:09:55 2020] Round: Brian rolls rock and Computer rolls scissors.
+[Sun Sep 27 23:09:55 2020] Brian takes the round!
+[Sun Sep 27 23:09:55 2020] Score is Brian: 1 and Computer: 0
+[Sun Sep 27 23:09:56 2020] Round: Brian rolls rock and Computer rolls water.
+[Sun Sep 27 23:09:56 2020] Computer takes the round!
+[Sun Sep 27 23:09:56 2020] Score is Brian: 1 and Computer: 1
+[Sun Sep 27 23:09:57 2020] Round: Brian rolls rock and Computer rolls scissors.
+[Sun Sep 27 23:09:57 2020] Brian takes the round!
+[Sun Sep 27 23:09:57 2020] Score is Brian: 2 and Computer: 1
+[Sun Sep 27 23:09:58 2020] Round: Brian rolls rock and Computer rolls rock.
+[Sun Sep 27 23:09:58 2020] Round was a tie!
+[Sun Sep 27 23:09:58 2020] Score is Brian: 2 and Computer: 1
+[Sun Sep 27 23:09:59 2020] Round: Brian rolls rock and Computer rolls fire.
+[Sun Sep 27 23:09:59 2020] Brian takes the round!
+[Sun Sep 27 23:09:59 2020] Score is Brian: 3 and Computer: 1
+[Sun Sep 27 23:09:59 2020] Brian wins the game!
+[Sun Sep 27 23:09:59 2020] Game over.
+[Sun Sep 27 23:11:08 2020] App starting up...
+[Sun Sep 27 23:11:08 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:11:10 2020] Brian has logged in.
+[Sun Sep 27 23:11:10 2020] New game starting between Brian and Computer.
+[Sun Sep 27 23:16:51 2020] App starting up...
+[Sun Sep 27 23:16:51 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Sun Sep 27 23:17:07 2020] juliet has logged in.
+[Sun Sep 27 23:17:07 2020] New game starting between juliet and Computer.
+[Sun Sep 27 23:17:21 2020] Round: juliet rolls fire and Computer rolls rock.
+[Sun Sep 27 23:17:21 2020] Computer takes the round!
+[Sun Sep 27 23:17:21 2020] Score is juliet: 0 and Computer: 1
+[Sun Sep 27 23:17:45 2020] Round: juliet rolls paper and Computer rolls water.
+[Sun Sep 27 23:17:45 2020] juliet takes the round!
+[Sun Sep 27 23:17:45 2020] Score is juliet: 1 and Computer: 1
+[Sun Sep 27 23:18:07 2020] Round: juliet rolls scissors and Computer rolls fire.
+[Sun Sep 27 23:18:07 2020] Computer takes the round!
+[Sun Sep 27 23:18:07 2020] Score is juliet: 1 and Computer: 2
+[Sun Sep 27 23:18:16 2020] Round: juliet rolls scissors and Computer rolls fire.
+[Sun Sep 27 23:18:16 2020] Computer takes the round!
+[Sun Sep 27 23:18:16 2020] Score is juliet: 1 and Computer: 3
+[Sun Sep 27 23:18:16 2020] Computer wins the game!
+[Sun Sep 27 23:18:16 2020] Game over.
+[Mon Sep 28 16:56:23 2020] App starting up...
+[Mon Sep 28 16:56:23 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Mon Sep 28 16:56:26 2020] Brian has logged in.
+[Mon Sep 28 16:56:26 2020] New game starting between Brian and Computer.
+[Mon Sep 28 16:56:49 2020] Round: Brian rolls rock and Computer rolls water.
+[Mon Sep 28 16:56:49 2020] Computer takes the round!
+[Mon Sep 28 16:56:49 2020] Score is Brian: 0 and Computer: 1
+[Mon Sep 28 16:56:57 2020] Round: Brian rolls sponge and Computer rolls scissors.
+[Mon Sep 28 16:56:57 2020] Computer takes the round!
+[Mon Sep 28 16:56:57 2020] Score is Brian: 0 and Computer: 2
+[Mon Sep 28 16:57:00 2020] Round: Brian rolls sponge and Computer rolls sponge.
+[Mon Sep 28 16:57:00 2020] Round was a tie!
+[Mon Sep 28 16:57:00 2020] Score is Brian: 0 and Computer: 2
+[Mon Sep 28 16:57:03 2020] Round: Brian rolls sponge and Computer rolls air.
+[Mon Sep 28 16:57:03 2020] Brian takes the round!
+[Mon Sep 28 16:57:03 2020] Score is Brian: 1 and Computer: 2
+[Mon Sep 28 16:57:05 2020] Round: Brian rolls sponge and Computer rolls rock.
+[Mon Sep 28 16:57:05 2020] Computer takes the round!
+[Mon Sep 28 16:57:05 2020] Score is Brian: 1 and Computer: 3
+[Mon Sep 28 16:57:05 2020] Computer wins the game!
+[Mon Sep 28 16:57:05 2020] Game over.
+[Mon Sep 28 16:57:41 2020] App starting up...
+[Mon Sep 28 16:57:41 2020] Loading rolls: ['rock', 'paper', 'scissors', 'fire', 'sponge', 'air', 'water'] from rolls.json.
+[Mon Sep 28 16:57:43 2020] Brian has logged in.
+[Mon Sep 28 16:57:43 2020] New game starting between Brian and Computer.
+[Mon Sep 28 16:57:50 2020] Round: Brian rolls paper and Computer rolls fire.
+[Mon Sep 28 16:57:50 2020] Computer takes the round!
+[Mon Sep 28 16:57:50 2020] Score is Brian: 0 and Computer: 1
+[Mon Sep 28 16:57:56 2020] Round: Brian rolls air and Computer rolls fire.
+[Mon Sep 28 16:57:56 2020] Brian takes the round!
+[Mon Sep 28 16:57:56 2020] Score is Brian: 1 and Computer: 1
+[Mon Sep 28 16:57:58 2020] Round: Brian rolls air and Computer rolls fire.
+[Mon Sep 28 16:57:58 2020] Brian takes the round!
+[Mon Sep 28 16:57:58 2020] Score is Brian: 2 and Computer: 1
+[Mon Sep 28 16:57:59 2020] Round: Brian rolls water and Computer rolls rock.
+[Mon Sep 28 16:57:59 2020] Brian takes the round!
+[Mon Sep 28 16:57:59 2020] Score is Brian: 3 and Computer: 1
+[Mon Sep 28 16:57:59 2020] Brian wins the game!
+[Mon Sep 28 16:57:59 2020] Game over.
