@@ -1,63 +1,80 @@
 # Brian Wolfe                       Created: 10/14/2020
 
-'''
+FILENAME = "mid_term_product.txt"  # text file for storing data
 
-**** CONSIDER USING ASSIGNMENT 5A CODE AS BASE FOR THIS PROJECT ****
 
-Code a menu-driven application that does the following:
+def display_header():
+    print("----------------------------------------")
+    print("      Assignment Mid-Term Exercise")
+    print("           Inventory Program")
+    print("----------------------------------------")
+    print()
 
-The user can enter data for a product name, product code, and unit price.
 
-An example might be 'Braeburn Apples', 'BAP'. 1.99.  After entering the data, it is appended (note I said 'appended')
-as a single line of text to a text file.  Each line of text in the file should represent a single product.
+def display_menu():
+    print("1. Enter a product")
+    print("2. Display all products")
+    print("3. Exit")
+    print()
 
-There is an option to display the contents of the text file.
 
-The program runs until the user tells it to stop.
+def append_to_file(file_path, content_list):
+    # Convert list to string, APPEND string to file_path
+    content_list[2] = str(format(content_list[2], '.2f'))  # Format float 2 decimal then to string
+    content_str = ", ".join(content_list)  # Ready list for write to file adding spaces
+    with open(file_path, "a") as fin:
+        fin.write(content_str)
+        fin.write("\n")
 
-Here's a possible run of your program.
 
-Inventory program
-1) Enter a product
-2) Display all products
-3) Quit
-Select a menu option: 1
+def read_from_file(file_path):
+    # Read the file contents and return
+    with open(file_path, "r") as fout:
+        return fout.readlines()
 
-Enter a product
-Name: Braeburn Apples
-Code: BAP
-Price: 1.99
 
-Inventory program
-1) Enter a product
-2) Display all products
-3) Quit
-Select a menu option: 1
+def main():
+    menu_looping = True
 
-Enter a product
-Name: Joliet Pears
-Code: JPR
-Price: 3.09
+    display_header()
 
-Inventory program
-1) Enter a product
-2) Display all products
-3) Quit
-Select a menu option: 2
+    while menu_looping:
+        product = []
 
-Products on file...
-Braeburn Apples, BAP, 1.99
-Joliet Pears, JPR, 3.09
+        display_menu()
+        menu_option = input("Please choose a number option from the menu: ")
+        print()
 
-Inventory program
-1) Enter a product
-2) Display all products
-3) Quit
-Select a menu option: 3
+        if menu_option == "1":
+            print("---------------")
+            print("Enter a Product")
+            print("---------------")
+            product.append(input("Name: ").title())  # Title case entry
+            product.append(input("Code: ").upper())  # Upper case entry
+            product.append(float(input("Price: $")))  # Convert to float
 
-The program has ended.
+            append_to_file(FILENAME, product)
 
-If your text file doesn't exist and you attempt to display it, your code will fail.  At this time, don't worry about
-that.  However, if you want to code for that potential problem, feel free.  You never know when that might be useful.
+            print(f"\nProduct added to {FILENAME}.\n")
 
-'''
+        elif menu_option == "2":
+            products = read_from_file(FILENAME)
+
+            print("----------------------------------------")
+            print("Products on file...")
+            print("----------------------------------------")
+            for item in range(len(products)):
+                print(products[item], end="")
+            print("-------------------EoF-------------------")
+            print()
+
+        elif menu_option == "3":
+            menu_looping = False
+
+        else:
+            print("Invalid menu selection.  Please try again.\n")
+
+
+if __name__ == '__main__':
+    main()
+
