@@ -107,7 +107,8 @@ def main():
             elif menu_option == "2":
                 products = read_from_file(FILENAME)
 
-                # Using string formats https://docs.python.org/2.7/library/string.html#format-specification-mini-language
+                # https://docs.python.org/2.7/library/string.html#format-specification-mini-language
+                # Using string formats to create nicer output of printed file data
                 # Detect character length and fills that in within the allotted spacing per cell
                 # < ^ > for alignment, number for cell spacing and * for 'unpacking' values
                 print("Products on file...")
