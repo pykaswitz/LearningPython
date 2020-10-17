@@ -21,7 +21,7 @@ def display_menu():
 def append_to_file(file_path, content_list):
     # Convert list to string, APPEND string to file_path
     content_list[2] = str(format(content_list[2], '.2f'))  # Format float 2 decimal then to string
-    content_str = ", ".join(content_list)  # Ready list for write to file adding spaces
+    content_str = ", ".join(content_list)  # Ready list for write to file adding commas
     with open(file_path, "a") as fin:
         fin.write(content_str)
         fin.write("\n")
