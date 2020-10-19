@@ -8,27 +8,33 @@ def rotate(string, n):
     # if neg add first letters up to last referenced by n / append to string / return string
 
     string = list(string)
+
+    i = n
     parked = []
-    for char in string:
-        if n > 0:
-            parked += char
-            n -= 1
-        else:
-            parked = "".join(parked)
-            string += str(parked)
-            break
+    popped = string.copy()
+    
+    if n > 0:
+        for char in string:
+            if i > 0:
+                popped.pop(popped.index(char))
+                i -= 1
+        parked = string[slice(n)]
 
-    print("what's this:", parked)
-    print("merged:", string)
-
-    print("final:", string)
-
-    # string = list(string)
-    # string.append(string.pop(0))  # This worked, but may not be what we need
-    # string = "".join(string)
-    # print("final:", parked)
-
-
+        string = popped + parked
+        string = "".join(string)
+        return string
+    elif n < 0:
+        popped.reverse()
+        string.reverse()        
+        for char in string:
+            if i < 0:
+                parked += popped.pop(popped.index(char))
+                i += 1
+        popped.reverse()
+        parked.reverse()
+        string = parked + popped
+        string = "".join(string)
+        return string  
 
 
 print(rotate('hello', 2))
