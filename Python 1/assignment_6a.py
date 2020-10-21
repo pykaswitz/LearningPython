@@ -5,7 +5,8 @@ FILENAME = "assignment_6a.txt"  # Setting a constant variable
 
 def display_header():
     print("----------------------------------------")
-    print("  Assignment 5A: R/W to External Files  ")
+    print("  Assignment 6A: R/W to External Files  ")
+    print("           Exceptions Version")
     print("----------------------------------------")
     print()
 
