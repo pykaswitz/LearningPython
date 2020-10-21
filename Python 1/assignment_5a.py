@@ -20,22 +20,24 @@ def display_menu():
     print()
 
 
+# def writeToTextFile(file_path, content_string):
+#     # WRITE content_string to file_path, return nothing
+#     # Using with/open format to make sure file closes even on error
+#     # Decommissioned function as it does not APPEND
+#     file_content = readListFromTextFile(file_path)
+#     file_content.append(content_string)
+#
+#     with open(file_path, "w") as fin:
+#         for line in file_content:
+#             fin.write(line)
+
+
 def writeToTextFile(file_path, content_string):
-    # WRITE content_string to file_path, return nothing
-    # Using with/open format to make sure file closes even on error
-    file_content = readListFromTextFile(file_path)
-    file_content.append(content_string)
-
-    with open(file_path, "w") as fin:
-        for line in file_content:
-            fin.write(line)
-
-
-# def appendToTextFile(file_path, content_string):
-#     # APPEND content_string to file_path, return nothing
-#     # Commented out as it wasn't asked for in assignment
-#     with open(file_path, "a") as fin:
-#         fin.write(content_string)
+    # APPEND content_string to file_path, return nothing
+    # Re-added this function as the last submission it was intended to APPEND
+    # Renamed function to match those of the assignment instructions
+    with open(file_path, "a") as fin:
+        fin.write(content_string)
 
 
 def readFromTextFile(file_path):
@@ -75,15 +77,11 @@ def main():
                 print()
                 print("Your entry has been saved to file.")
                 print()
-            # elif menu_selection == n:
-            #     append_to_file = input("Type content to append to file: ")
-            #     append_to_file = append_to_file + "\n"
-            #     appendToTextFile(FILENAME, append_to_file)
             elif menu_selection == 2:
                 print()
                 print("Reading contents of entire file, as string...")
                 print("-----------------------------------------")
-                print(readFromTextFile(FILENAME))
+                print(readFromTextFile(FILENAME), end="")  # Removes the extra blank line when printing out
                 print("-------------------EoF-------------------")
                 print()
             elif menu_selection == 3:
