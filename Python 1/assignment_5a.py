@@ -113,7 +113,7 @@ def main():
             print()
         except Exception as ex:
             print()
-            print(f"UNKNOWN ERROR: A exception has occurred: {ex}")
+            print(f"UNKNOWN ERROR: A exception has occurred: {type(ex)}, {ex}")
             print()
             raise
 
