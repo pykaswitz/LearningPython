@@ -1,11 +1,18 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 PYBITES_BORN = datetime(year=2016, month=12, day=19)
+special_day = []
 
 
 def gen_special_pybites_dates():
-    pass
-
+    calc_date = PYBITES_BORN + timedelta(days=100)
+    print(calc_date)
+    special_day.append(calc_date)
+    print(special_day)
+    # WHY DOES IT ADD datetime.datetime TO LIST????
+    # for i in range(9):
+    #     special_day.append(special_day[i] + timedelta(days=100))
+    return special_day
 
 gen_special_pybites_dates()
 
