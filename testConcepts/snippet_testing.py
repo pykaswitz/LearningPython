@@ -1,4 +1,4 @@
-invalid_char = ('<>:"/\\|?*')  # \\ is escaped to allow \ in string, using ' to allow " in string
+invalid_char = '<>:"/\\|?*'  # \\ is escaped to allow \ in string, using ' to allow " in string
 testing_filename = True
 
 while testing_filename:
