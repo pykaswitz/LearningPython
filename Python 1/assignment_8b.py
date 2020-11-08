@@ -54,20 +54,5 @@ def main():
     print(f"{datetime.strftime(adjusted_date, '%B %d, %Y')} is {adjusted_days} days after {user_date.strftime('%B %d, %Y')}.")
 
 
-
 if __name__ == '__main__':
     main()
-
-'''
-Code a program that that does the following:
-
-The user should be prompted to enter a date (year, month, day). 
-
-Then the user should be prompted to enter a number of days.
-
-Increase the date by the number of days and display the results.
-
-So if you enter a date of April 1, 2020 and then enter a value of 15 days, the program should display 
-a date of April 16, 2020. 
-
-'''
