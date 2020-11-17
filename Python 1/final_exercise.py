@@ -20,6 +20,7 @@ def get_candidates():
     value_testing = True
     name_testing = True
     vote_testing = True
+    c_list = ['1st', '2nd', '3rd']
     candidate = {}  # Create dictionary to hold data
     count = 0
 
@@ -29,7 +30,7 @@ def get_candidates():
 
             # TEST CANDIDATE NAME
             if name_testing:
-                candidate['lname'] = input("Enter a candidate's last name: ").title()
+                candidate['lname'] = input(f"Enter {c_list[count]} candidate's last name: ").title()
                 for letter in candidate['lname']:
                     if letter.isspace() or not letter.isalpha():  # Make sure the name contains no spaces or numbers
                         print("INVALID ENTRY:  Candidate's name must be a single name of only letters.")
@@ -39,12 +40,18 @@ def get_candidates():
                     else:
                         name_testing = False
 
-            # TEST VOTES VALUE
+            # TEST VOTES VALUE ONLY IF NOT TESTING NAME
             if vote_testing and not name_testing:
                 candidate['votes'] = input(f"Enter {candidate['lname']}'s total votes: ")
-                for letter in candidate['votes']:
+                # Test if vote is 0 and if so removes candidate and asks for a different candidate.
+                if candidate['votes'].isdigit() and int(candidate['votes']) == 0:
+                    print(f"INVALID ENTRY:  {candidate['lname']} received zero votes and has been removed from the election.")
+                    print("\t\t\t\tEnter a candidate that has received votes greater than zero.  Please try again.")
+                    name_testing = True
+                    continue
+                for num in candidate['votes']:
                     # Keeping votes as a string now helps to logic test easier for valid data input
-                    if letter.isspace() or not letter.isdigit():  # Make sure the vote contains no spaces or letters
+                    if num.isspace() or not num.isdigit():  # Make sure the vote contains no spaces or letters
                         print("INVALID ENTRY:  Votes must be a positive number only.")
                         print("\t\t\t\tPlease try again.")
                         vote_testing = True
@@ -125,7 +132,8 @@ def display_final():
         print("{:^15}|{:^15,}|{:^30.1%}".format(candidate['lname'], candidate['votes'], candidate['percentage']))
 
     print("{:-<60}".format(""))
-    print("Total Votes: {:,} received\n".format(total_votes))
+    # print("Total Votes: {:,} received across {} candidates.\n".format(total_votes, len(candidates)))
+    print(f"Total Votes: {total_votes:,} received across {len(candidates)} candidates.\n")
 
     get_winner()  # Determine winner and display their name
 
